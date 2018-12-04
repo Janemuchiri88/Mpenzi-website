@@ -1,0 +1,137 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+p {
+    color:#8f8f8f;
+}
+
+.big-heading {
+font-family: 'Montserrat-black', sans-serif;
+color: #fff;
+line-height: 1.5;
+font-size: 2.5rem;
+width: 462px;
+}
+.last-heading {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+/* navbar section */
+.navbar-brand {
+  font-family: "Roboto-bold";
+  font-size: 2.3rem;
+}
+.navbar ul li {
+  padding: 18px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* title section */
+#title  {
+  background-color: #f12d2d;
+
+text-align: left;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+.download-button {
+  margin: 2% 2%;
+  padding:2% 2%;
+
+}
+
+
+
+/* feature section  */
+#feature {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.icon {
+  color: #f34949;
+  margin: 18%;
+}
+.icon:hover {
+  color: #f12d2d;
+
+}
+/* testimonials section */
+#testimonials {
+  background-color: #f34949;
+  color: #fff;
+}
+.testimonial-image {
+  border-radius: 100%;
+  margin: 9% 12% 8%;
+  width: 30%;
+}
+.testimonial-text {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+/* press section */
+#press {
+  background-color: #f34949;
+ padding: 3% 10%;
+}
+.press-image {
+  margin: 0 2%;
+  width: 20%;
+
+}
+/* Pricimg section */
+#pricing {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.pricing-heading {
+  font-family: 'Montserrat-bold', sans-serif;
+
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-header {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+ /* footer section  */
+ #cta {
+   background-color: #f12d2d;
+   color: #fff;
+  padding: 7% 15%;
+ }
+#footer-section {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.footer-icon {
+  padding: 3%;
+}
+.social-icon {
+  padding: 2%;
+}
+
+/* media queries */
+@media (max-width:980px) {
+  #title {
+    text-align: center;
+  }
+}
